@@ -14,7 +14,7 @@ def fetch_planet_data():
             planets["name"].append(name)
             planets["mass"].append(mass['massValue'])
             
-            print(f"\n Planet: {name},\n Mass: {mass['massValue']},\n Orbit Period: {orbit_period} days")
+            print(f"\n Planet: {name},\n Mass: {mass['massValue']} kg ,\n Orbit Period: {orbit_period} days")
     print(planets)
     return planets           
             
